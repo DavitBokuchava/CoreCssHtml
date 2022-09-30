@@ -1,0 +1,11 @@
+.c {
+  color: red;
+}
+div div.c {
+    color: green;
+  }
+div input {
+  color: green;
+  background-color: green;
+  width: 300px;
+}

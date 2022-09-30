@@ -1,0 +1,28 @@
+/* 
+    @Base Selectors:
+
+        *            universal selector    2
+        div          selector oby element  1
+        #idValue     selector by ID        1
+        .classValue  selector by class     1
+
+    @Combinator Selectors: 
+        element.classValue        Selector element + class
+        .classValue1.classValue2  Selector element with two classes
+    
+    @Grouping selectors:
+        p, div.classValue, #idValue  the list of selectors 
+
+*/
+
+/* 
+    @Attributes  Selectors: 
+        [specific-attribute] All spec-attributes  2
+        h1[title]            all h1 attributes    2 
+        span[class operator 'example'] 
+        
+        a[title][href]  
+        [class operand "example"]
+        [alt operand "example"]
+
+*/
